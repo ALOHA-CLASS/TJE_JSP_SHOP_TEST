@@ -114,6 +114,10 @@ ALOHA CLASS 더조은컴퓨터아카데미 - JSP 평가 - 쇼핑몰 초기 프�
 #### 수정 완료
 <img src="https://i.imgur.com/erZdZJc.png" />
 
+#### 탈퇴 완료
+<img src="https://i.imgur.com/n6UCxK8.png" />
+<br><br><br><br>
+
 <br><br><br><br>
 <br><br><br><br>
 
