@@ -11,6 +11,6 @@ CREATE TABLE `product_io` (
   PRIMARY KEY (`io_no`),
   KEY `product_id_FK` (`product_id`),
   KEY `product_id_FK_1` (`order_no`),
-  CONSTRAINT `product_id_FK` FOREIGN KEY (`product_id`) REFERENCES `product` (`product_id`),
-  CONSTRAINT `order_no_FK` FOREIGN KEY (`order_no`) REFERENCES `order` (`order_no`)
+  CONSTRAINT `product_id_FK` FOREIGN KEY (`product_id`) REFERENCES `product` (`product_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `order_no_FK` FOREIGN KEY (`order_no`) REFERENCES `order` (`order_no`) ON DELETE CASCADE ON UPDATE CASCADE
 ) COMMENT='상품 입출고';
